@@ -15,3 +15,9 @@ print(f"minimum of marks : {mini}")
 # total
 total = sum(marks)
 print(f"total of marks : {total}")
+
+# to sort using sorted(),it will always return you a new list
+new_marks = sorted(marks)
+new_marks1 = sorted(marks, reverse = True)
+print(new_marks)
+print(new_marks1)
