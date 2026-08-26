@@ -17,3 +17,4 @@ print(marks.items())
 
 for sub,mark in marks.items():
     print(sub,mark)
+
